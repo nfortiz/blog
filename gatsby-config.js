@@ -1,8 +1,9 @@
 module.exports = {
+  pathPrefix: '/blog',
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Personal Blog`,
     author: {
-      name: `Kyle Mathews`,
+      name: `Nixon Fernando Ortiz Suarez`,
       summary: `who lives and works in San Francisco building useful things.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,

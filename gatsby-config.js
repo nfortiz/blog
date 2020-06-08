@@ -4,12 +4,12 @@ module.exports = {
     title: `Personal Blog`,
     author: {
       name: `Nixon Fernando Ortiz Suarez`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      summary: `who lives in Bogota learning and building useful things.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    siteUrl: `http://nfortiz.me/blog`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `nfortiz10`,
     },
   },
   plugins: [
@@ -54,7 +54,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-150421443-1`,
       },
     },
     `gatsby-plugin-feed`,

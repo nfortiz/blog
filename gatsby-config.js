@@ -1,12 +1,12 @@
 module.exports = {
-  pathPrefix: '/blog',
+  pathPrefix: "/blog",
   siteMetadata: {
-    title: `Personal Blog`,
+    title: `Nixon Ortiz Blog`,
     author: {
       name: `Nixon Fernando Ortiz Suarez`,
-      summary: `who lives in Bogota learning and building useful things.`,
+      summary: `who lives in Bogota learning and building useful things. FullStack Developer.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `A blog demonstrating my knowledge and tracking my learning path.`,
     siteUrl: `http://nfortiz.me/blog`,
     social: {
       twitter: `nfortiz10`,
@@ -61,8 +61,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `nfortiz Blog`,
+        short_name: `nfortiz`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
@@ -80,6 +80,6 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
-    `gatsby-plugin-netlify-cms`
+    `gatsby-plugin-netlify-cms`,
   ],
 }
